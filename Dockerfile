@@ -1,7 +1,7 @@
 FROM alpine:latest
 MAINTAINER WangXian <xian366@126.com>
 
-RUN apk upgrade --update && apk add nodejs
+RUN apk --update --no-progress add nodejs
 
 WORKDIR /app
 ADD . .
