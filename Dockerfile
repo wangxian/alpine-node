@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:edge
 MAINTAINER WangXian <xian366@126.com>
 
 RUN apk --update --no-progress add nodejs
