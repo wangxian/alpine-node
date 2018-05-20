@@ -1,5 +1,5 @@
 # alpine-node
-Alpine Linux-base Docker image with NodeJS
+Alpine Linux-base Docker image with Node.js
 
 The current directory must have `package.json`
 where Dockerfile place.
